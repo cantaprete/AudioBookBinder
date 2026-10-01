@@ -1221,7 +1221,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				9F695F0A1D87ACC0000C9493 /* Base */,
-				9F695F171D87ACFE000C9493 /* ru */,
 				9F695F231D87AE19000C9493 /* nb */,
 				9F695F2C1D87AE42000C9493 /* it */,
 				9F695F351D87AE57000C9493 /* fr */,
@@ -1233,7 +1232,6 @@
 		9F695F101D87ACFD000C9493 /* AudioBookBinder-InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9F695F0F1D87ACFD000C9493 /* ru */,
 				9F695F1A1D87AD1F000C9493 /* Base */,
 				9F695F1D1D87AE18000C9493 /* nb */,
 				9F695F261D87AE42000C9493 /* it */,
@@ -1247,7 +1245,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				9F695F091D87ACC0000C9493 /* Base */,
-				9F695F0B1D87ACFC000C9493 /* ru */,
 				9F695F1C1D87AE18000C9493 /* nb */,
 				9F695F251D87AE41000C9493 /* it */,
 				9F695F2E1D87AE56000C9493 /* fr */,
@@ -1260,7 +1257,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				9F78673911A88F470054ADF0 /* en */,
-				9F695F181D87ACFE000C9493 /* ru */,
 				9F695F241D87AE19000C9493 /* nb */,
 				9F695F2D1D87AE43000C9493 /* it */,
 				9F695F361D87AE57000C9493 /* fr */,
@@ -1288,7 +1284,7 @@
 				GCC_PREFIX_HEADER = AudioBookBinder_Prefix.pch;
 				INSTALL_PATH = /usr/local/bin;
 				LIBRARY_SEARCH_PATHS = "";
-				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = abbinder;
@@ -1313,7 +1309,7 @@
 				GCC_PREFIX_HEADER = AudioBookBinder_Prefix.pch;
 				INSTALL_PATH = /usr/local/bin;
 				LIBRARY_SEARCH_PATHS = "";
-				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = abbinder;
@@ -1367,7 +1363,7 @@
 					third_party/mp4v2/include,
 				);
 				LIBRARY_SEARCH_PATHS = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
@@ -1417,7 +1413,7 @@
 					third_party/mp4v2/include,
 				);
 				LIBRARY_SEARCH_PATHS = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				OTHER_CFLAGS = "";
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = abbinder;
@@ -1658,7 +1654,7 @@
 					third_party/mp4v2/include,
 				);
 				LIBRARY_SEARCH_PATHS = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				ONLY_ACTIVE_ARCH = NO;
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = abbinder;
@@ -1681,7 +1677,7 @@
 				GCC_PREFIX_HEADER = AudioBookBinder_Prefix.pch;
 				INSTALL_PATH = /usr/local/bin;
 				LIBRARY_SEARCH_PATHS = "";
-				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = abbinder;
 				SDKROOT = macosx;
